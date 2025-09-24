@@ -1,0 +1,64 @@
+## === Compilação (binários e intermediários) ===
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+out/
+
+## === Visual Studio ===
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## === Arquivos de build do MSBuild / CMake ===
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.lib
+*.exp
+*.iobj
+*.ipdb
+
+# DLLs e EXEs gerados
+*.exe
+*.dll
+*.app
+*.out
+
+# Arquivos de debug/release
+*.cache
+*.log
+*.tlog
+*.lastbuildstate
+*.db
+*.opendb
+*.unsuccessfulbuild
+
+## === Configuração temporária ===
+*.tmp
+*.temp
+*.bak
+*.swp
+*.sdf
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+
+## === Diretórios do CMake (se usar) ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+## === Arquivos do sistema (Windows) ===
+[Dd]esktop.ini
+[Tt]humbs.db
+ehthumbs.db
+
+## === Outros ===
+*.VC.db
+*.VC.opendb
